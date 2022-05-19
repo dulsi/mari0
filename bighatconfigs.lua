@@ -1,8 +1,8 @@
 bighatoffsets = {}
 bighatoffsets["idle"] = {-4, -4}
-bighatoffsets["fire"] = {-5, -4}
-bighatoffsets["running"] = {{-5, -4}, {-4, -4}, {-3, -4}}
-bighatoffsets["sliding"] = {-5, -4}
+bighatoffsets["fire"] = {-4, -4}
+bighatoffsets["running"] = {{-4, -5}, {-4, -4}, {-3, -4}}
+bighatoffsets["sliding"] = {-5, -5}
 bighatoffsets["jumping"] = {-4, -4}
 bighatoffsets["falling"] = {-4, -2}
 bighatoffsets["climbing"] = {{-4, -4}, {-4, -4}}
