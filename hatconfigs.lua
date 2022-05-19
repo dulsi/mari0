@@ -1,6 +1,6 @@
 hatoffsets = {}
 hatoffsets["idle"] = {0, 1}
-hatoffsets["running"] = {{0, 1}, {0, 1}, {-1, 1}}
+hatoffsets["running"] = {{1, 1}, {0, 1}, {0, 1}}
 hatoffsets["sliding"] = {0, 1}
 hatoffsets["jumping"] = {0, 1}
 hatoffsets["falling"] = {0, 1}
@@ -28,14 +28,14 @@ hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tyrolean.png");hat[i]
 
 i = 3
 hat[i] = {}
-hat[i].x = 5
+hat[i].x = 6
 hat[i].y = -1
 hat[i].height = 4
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/towering1.png");hat[i].graphic:setFilter("nearest", "nearest")
 
 i = 4
 hat[i] = {}
-hat[i].x = 5
+hat[i].x = 6
 hat[i].y = -6
 hat[i].height = 8
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/towering2.png");hat[i].graphic:setFilter("nearest", "nearest")
@@ -43,13 +43,13 @@ hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/towering2.png");hat[i
 i = 5
 hat[i] = {}
 hat[i].x = 5
-hat[i].y = 1
+hat[i].y = 0
 hat[i].height = 2
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/towering3.png");hat[i].graphic:setFilter("nearest", "nearest")
 
 i = 6
 hat[i] = {}
-hat[i].x = 5
+hat[i].x = 6
 hat[i].y = -7
 hat[i].height = 10
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/drseuss.png");hat[i].graphic:setFilter("nearest", "nearest")
@@ -70,8 +70,8 @@ hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/banana.png");hat[i].g
 
 i = 9
 hat[i] = {}
-hat[i].x = 7
-hat[i].y = -2
+hat[i].x = 8
+hat[i].y = -3
 hat[i].height = 3
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/beanie.png");hat[i].graphic:setFilter("nearest", "nearest")
 
@@ -105,21 +105,21 @@ hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/crown.png");hat[i].gr
 
 i = 14
 hat[i] = {}
-hat[i].x = 5
+hat[i].x = 6
 hat[i].y = -5
 hat[i].height = 9
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat.png");hat[i].graphic:setFilter("nearest", "nearest")
 
 i = 15
 hat[i] = {}
-hat[i].x = 6
+hat[i].x = 5
 hat[i].y = 1
 hat[i].height = 2
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/batter.png");hat[i].graphic:setFilter("nearest", "nearest")
 
 i = 16
 hat[i] = {}
-hat[i].x = 6
+hat[i].x = 5
 hat[i].y = 0
 hat[i].height = 2
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/bonk.png");hat[i].graphic:setFilter("nearest", "nearest")
